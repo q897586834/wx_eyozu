@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/index/main",
+    "pages/logs/main",
+    "pages/counter/main",
+    "pages/me/main",
+    "pages/circle/main",
+    "pages/shop/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/main",
+        "text": "游戏",
+        "iconPath":"static/images/game_gray.png",
+        "selectedIconPath":"static/images/game_blue.png"
+      },
+      {
+        "pagePath": "pages/shop/main",
+        "text": "积分商城",
+        "iconPath":"static/images/jifen_gray.png",
+        "selectedIconPath":"static/images/jifen_blue.png"
+      },
+      {
+        "pagePath": "pages/circle/main",
+        "text": "大转盘",
+        "iconPath":"static/images/zhuanpan_gray.png",
+        "selectedIconPath":"static/images/zhuanpan_blue.png"
+      },
+      {
+        "pagePath": "pages/me/main",
+        "text": "我的",
+        "iconPath":"static/images/mine_gray.png",
+        "selectedIconPath":"static/images/mine_blue.png"
+      }
+    ]
+  }
+}

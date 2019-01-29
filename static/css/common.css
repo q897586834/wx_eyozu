@@ -1,0 +1,37 @@
+/* reset */
+body,h1,h2,h3,h4,h5,p,dl,dd,ul,ol,form,input,textarea,th,td,select { margin:0; padding:0; }
+em { font-style:normal; }
+li { list-style:none; }
+a { text-decoration:none;cursor:pointer; }
+img { border:none; vertical-align:top; }
+table { border-collapse:collapse; }
+input,textarea { outline:none; }
+textarea { resize:none; overflow:auto; }
+body { font-family:"Heiti SC","Helvetica","HelveticaNeue","Source Han Sans CN","Roboto";background-color: #f2f2f2 }
+input, button {appearance: none;-moz-appearance: none;-webkit-appearance: none;}
+
+/* end reset */
+
+/* public */
+.clear { zoom:1; clear:both;}
+.clear:after { content:''; display:block; clear:both; }
+.fl { float:left; }
+.fr { float:right; }
+.no_break {
+  overflow:hidden;
+  text-overflow:ellipsis;
+  -o-text-overflow:ellipsis;
+  -webkit-text-overflow:ellipsis;
+  -moz-text-overflow:ellipsis;
+  white-space:nowrap;
+}
+.triangle_down, .triangle_right, .triangle_left { position:absolute; width:0; height:0; overflow:hidden; cursor:pointer;}
+.triangle_down {border-top:14px solid #5f9eeb; border-left:10px solid transparent; border-right:10px solid transparent;}
+.triangle_right {border-left:14px solid #5f9eeb; border-top:10px solid transparent; border-bottom:10px solid transparent;}
+.triangle_left {border-right:14px solid #5f9eeb; border-top:10px solid transparent; border-bottom:10px solid transparent;}
+
+
+
+
+
+
